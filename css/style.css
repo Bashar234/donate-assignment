@@ -3,27 +3,30 @@ body {
 }
 /* correction korte hbe */
 .donate-area {
-  height: 600px;
+  height:800px;
   width: 100%;
-  background-image: url(../images/donation3.jpg);
+  background-image: url(../images/donation7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: aquamarine;
   text-align: center;
-  color: yellow;
   font-weight: bold;
-  /* padding-top: 200px; */
+}
+.top-h{
+  padding-top: 300px;
 }
 .donate-area p {
   padding-top: 300px;
   padding-left: 20%;
   padding-right: 20%;
+  text-align: center;
 }
-
 .link-btn {
   text-decoration: none;
   background-color: tomato;
   padding: 8px 16px;
   border-radius: 7px;
+  text-align: center;
 }
 
 /* part-2 */
@@ -116,4 +119,47 @@ hr {
   width: 80px;
   margin-right: 200px;
   margin-top: 30px;
+}
+
+/* part-4 */
+.project-nasa {
+  display: flex;
+}
+.width {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+/* part-5 */
+.update-area {
+  background-color: burlywood;
+  width: 600px;
+  height: 150px;
+  margin-left: 380px;
+}
+.press-button {
+  margin-top: 60px;
+  margin-left: 140px;
+  background-color: grey;
+  height: 25px;
+}
+#btn-width {
+  padding-top: 2px;
+  padding-left: 15px;
+  padding-bottom: 2px;
+}
+
+/* part-6 */
+footer {
+  margin-top: 20px;
+  padding-top: 40px;
+  height: 150px;
+  width: 90%;
+  background-color: rgb(154, 73, 154);
+  color: white;
+  text-align: center;
+  margin-left: 60px;
+}
+.audiowide-font {
+  font-family: "Audiowide", sans-serif;
+  color: black;
 }
