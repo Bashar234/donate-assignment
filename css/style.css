@@ -1,0 +1,119 @@
+body {
+  font-family: "Trirong", serif;
+}
+/* correction korte hbe */
+.donate-area {
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/donation3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  /* padding-top: 200px; */
+}
+.donate-area p {
+  padding-top: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 8px 16px;
+  border-radius: 7px;
+}
+
+/* part-2 */
+.donate {
+  text-align: center;
+}
+.donate p {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.money-bag {
+  display: flex;
+
+  margin-left: 390px;
+}
+
+.box-item {
+  height: 80px;
+  width: 100px;
+  background-color: bisque;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h6 {
+  text-align: center;
+}
+hr {
+  width: 50%;
+}
+#btn-center {
+  margin-left: 600px;
+  margin-bottom: 10px;
+}
+
+#different-box {
+  border: 2px solid royalblue;
+  color: royalblue;
+}
+
+/* part-3 */
+.donate-plan {
+  text-align: center;
+}
+.paragraph {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.donate-chart {
+  display: flex;
+  margin-left: 100px;
+}
+.box-width {
+  width: 30%;
+  height: 350px;
+
+  margin-left: 10px;
+  border-radius: 7px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box-width p {
+  padding-left: 5px;
+}
+
+#food {
+  background-color: aquamarine;
+}
+#food img {
+  width: 80px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+#shelter {
+  background-color: bisque;
+}
+#shelter img {
+  width: 80px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+#education {
+  background-color: rgb(145, 203, 203);
+}
+#education img {
+  width: 80px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
