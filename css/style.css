@@ -3,20 +3,20 @@ body {
 }
 /* correction korte hbe */
 .donate-area {
-  height:800px;
+  height: 800px;
   width: 100%;
   background-image: url(../images/donation7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: aquamarine;
+  color: white;
   text-align: center;
   font-weight: bold;
 }
-.top-h{
-  padding-top: 300px;
+.middle {
+  padding-top: 500px;
 }
 .donate-area p {
-  padding-top: 300px;
+  /* padding-top: 300px; */
   padding-left: 20%;
   padding-right: 20%;
   text-align: center;
@@ -129,12 +129,16 @@ hr {
   margin-top: 20px;
   margin-right: 40px;
 }
+.width img {
+  border-radius: 5px;
+}
 /* part-5 */
 .update-area {
   background-color: burlywood;
   width: 600px;
   height: 150px;
   margin-left: 380px;
+  border-radius: 9px;
 }
 .press-button {
   margin-top: 60px;
@@ -153,13 +157,13 @@ footer {
   margin-top: 20px;
   padding-top: 40px;
   height: 150px;
-  width: 90%;
-  background-color: rgb(154, 73, 154);
+  background-color: black;
   color: white;
   text-align: center;
-  margin-left: 60px;
+
+  border-radius: 8px;
 }
 .audiowide-font {
   font-family: "Audiowide", sans-serif;
-  color: black;
+  color: tomato;
 }
